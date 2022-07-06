@@ -19,10 +19,71 @@ body{
     
 }
 .hero{
-    padding-top: 15%;
+    padding: 15%;
     text-align: center;
     color: white; 
 }
 h1{
     font-size: xx-large;
+}
+.donation{
+    text-align: center;
+}
+.donate-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200px;
+    
+}
+.donate-please{
+    margin: 20px 30px;
+    padding: 5px 5px;
+}
+.box{
+    background-color: pink;
+    padding: 20px;
+    color: orangered;
+    border: 2px solid;
+}
+.amount{
+    border-bottom: 2px solid grey;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.plan{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.family{
+    display: flex;
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    text-align: center;
+
+    
+}
+.food{
+    background-color: rgb(239, 250, 246);
+    width: 33%;
+    margin: 0 10px;
+    padding-top: 30px;
+}
+.shelter{
+    background-color: rgb(250, 220, 225);
+    width: 33%;
+    margin: 0 10px;
+    padding-top: 30px;
+}
+.education{
+    background-color: rgb(247, 146, 146);
+     width: 33%;
+     margin: 0 10px;
+     padding-top: 30px;
 }
